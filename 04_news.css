@@ -7,7 +7,7 @@
 .newstop h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: lighter;
-    font-size: 140px;
+    font-size: 60px;
     margin-left: 60px;
 }
 
@@ -18,8 +18,9 @@
 .newsmid h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: lighter;
-    font-size: 110px;
+    font-size: 100px;
     margin-left: 60px;
+    margin-top: -20px;
 }
 
 .newsmid h2 {
@@ -28,13 +29,14 @@
     font-size: 30px;
     margin-left: 60px;
     color: #7b7b7b;
+    margin-top: -20px;
 }
 
 .newsbot {
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 80px;
+    gap: 10px;
 }
 
 .newsbot1,
@@ -43,8 +45,8 @@
     background-color: rgb(211, 226, 246);
     border: solid 1px rgb(148, 209, 255);
     border-radius: 40px;
-    height: 500px;
-    width: 500px;
+    height: 350px;
+    width: 300px;
 }
 
 .newsbot1:hover,
@@ -53,8 +55,6 @@
     background-color: rgb(138, 189, 255);
     border: solid 1px rgb(148, 209, 255);
     border-radius: 40px;
-    height: 500px;
-    width: 500px;
     transition: all .2s ease-in .2s;
     transform: scale(1.05);
 }
@@ -63,7 +63,7 @@
 .newsbot1 h1,
 .newsbot2 h1,
 .newsbot3 h1 {
-    font-size: 100px;
+    font-size: 60px;
 
 }
 
@@ -71,15 +71,16 @@
 .newsbot1 h2,
 .newsbot2 h2,
 .newsbot3 h2 {
-    font-size: 30px;
+    font-size: 20px;
     color: #000000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -30px;
 }
 
 .newsbot1 h3,
 .newsbot2 h3,
 .newsbot3 h3 {
-    font-size: 26px;
+    font-size: 19px;
     color: #7e7e7e;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -107,7 +108,7 @@
 .gallery {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 }
 
 .gallerytext {
@@ -115,11 +116,11 @@
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    gap: 90px;
+    gap: 30px;
 }
 
 .gallerytext h1 {
-    font-size: 170px;
+    font-size: 110px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: lighter;
 }
@@ -127,17 +128,18 @@
 .gallerypics {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
 }
 
 .gallpictop {
     display: flex;
     justify-content: center;
-    gap: 130px;
+    gap: 30px;
 }
 
 .gallpicbot {
     display: flex;
     justify-content: center;
-    gap: 130px;
+    gap: 30px;
 }
+

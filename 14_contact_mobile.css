@@ -8,7 +8,7 @@
 }
 
 .contactleft {
-    margin-top: 120px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -24,6 +24,7 @@
 
 .contactright h1{
     margin-left: -70px;
+    
 }
 
 .contactright{
@@ -31,7 +32,8 @@
     flex-direction: column;
     justify-content: center;
     margin-left: -170px;
-    margin-top: -400px;
+    margin-top: -80px;
+   margin-bottom: 200px;
 }
 
 .contactin{

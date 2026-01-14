@@ -9,8 +9,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    top: 0;
-    margin-top: 30px;
     background: transparent;
     backdrop-filter: blur(5px);
 }
@@ -18,15 +16,14 @@ body {
 .navbar {
     display: flex;
     flex-direction: row;
-    gap: 60px;
+    height: 60px;
+    width: 40%;
+    max-width: 500px;
+    gap: 20px;
+
     border: solid 1px black;
-    border-radius: 70px;
-    margin-top: 30px;
-
-    padding-top: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-
+    border-radius: 30px;
+    margin-top: 20px;
 
     position: fixed;
     top: 20px;
@@ -40,15 +37,15 @@ body {
 
 
 .lottie {
-    width: 100px;
-    height: 130px;
-    margin-top: -14px;
+    width: 70px;
+    height: 100px;
+    margin-top: -24px;
 }
 
 .lottie:hover {
     cursor: pointer;
-    transform: scale(1.6);
     transition: transform 0.4s;
+    transform: scale(1.1);
 }
 
 .ltext {
@@ -57,7 +54,7 @@ body {
 }
 
 .ltext h1 {
-    font-size: 20px;
+    font-size: 10px;
     text-align: center;
 }
 
@@ -76,8 +73,8 @@ body {
 .navs {
     display: flex;
     flex-direction: row;
-    gap: 25px;
-    padding-top: 20px;
+    gap: 10px;
+    margin-top: 10px;
     font-display: none;
 
 }
@@ -88,18 +85,22 @@ body {
     font-family: "Tinos", serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 8px;
 }
 
 .navs a:hover {
-    transform: scale(1.26);
+    transform: scale(1.1);
     color: rgb(8, 176, 191);
     transition: transform 0.4s;
 }
 
+.sinlog h1 {
+    font-size: 20px;
+}
+
 .sinlog button {
     border-radius: 50px;
-    margin-top: 20px;
-    padding: 10px 20px;
+    margin-top: 37px;
     transition: transform .2s ease-in-out .1s, color .2s ease-in .1s;
 }
 
@@ -169,19 +170,18 @@ body {
 
 .title {
     text-align: center;
-
     font-family: "Tinos", serif;
     font-weight: 400;
     font-style: normal;
 
-    font-size: 110px;
+    font-size: 50px;
     color: rgb(0, 0, 0);
     margin-bottom: 50px;
     margin-top: -60px;
 }
 
 .pic {
-    margin-top: -90px;
+    margin-top: -60px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -195,7 +195,7 @@ body {
     }
 
     50% {
-        transform: translate(-50%, -35px);
+        transform: translate(-50%, -10px);
     }
 
     100% {
@@ -210,21 +210,23 @@ body {
     left: 50%;
     transform: translateX(-50%);
     align-self: center;
-    border-radius: 50px 50px 0px 0px;
-
+    border-radius: 25px 25px 0px 0px;
+    height: 560px;
+    width: auto;
 
     animation: float 4s ease-in-out infinite;
 
-    filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.3));
 }
 
 .botim {
-
-    margin-top: 310px;
+    height: 450px;
+    margin-top: 120px;
     align-self: center;
+    width: 1100px;
 }
 
-
-
-
-
+.logo img {
+    height: 110px;
+    margin-top: 20px;
+}

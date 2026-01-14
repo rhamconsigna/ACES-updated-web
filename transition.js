@@ -77,7 +77,7 @@ function aboutlogodo() {
 
 function in1() {
     fadeabout1.style.transition = "all .2s ease-in .1s";
-    fadeabout1.style.transform = "scale(1.17) translateY(-20px)";
+    fadeabout1.style.transform = "scale(1.1) translateY(-5px)";
     fadeabout2.style.transition = "all .1s ease-in .2s";
     fadeabout3.style.transition = "all .1s ease-in .2s";
     fadeabout4.style.transition = "all .1s ease-in .2s";
@@ -97,7 +97,7 @@ function out1() {
 
 function in2() {
     fadeabout2.style.transition = "all .2s ease-in .1s";
-    fadeabout2.style.transform = "scale(1.17) translateY(-20px)";
+    fadeabout2.style.transform = "scale(1.1) translateY(-5px)";
     fadeabout1.style.transition = "all .1s ease-in .2s";
     fadeabout3.style.transition = "all .1s ease-in .2s";
     fadeabout4.style.transition = "all .1s ease-in .2s";
@@ -117,7 +117,7 @@ function out2() {
 
 function in3() {
     fadeabout3.style.transition = "all .2s ease-in .1s";
-    fadeabout3.style.transform = "scale(1.17) translateY(-20px)";
+    fadeabout3.style.transform = "scale(1.1) translateY(-5px)";
     fadeabout1.style.transition = "all .1s ease-in .2s";
     fadeabout2.style.transition = "all .1s ease-in .2s";
     fadeabout4.style.transition = "all .1s ease-in .2s";
@@ -137,7 +137,7 @@ function out3() {
 
 function in4() {
     fadeabout4.style.transition = "all .2s ease-in .1s";
-    fadeabout4.style.transform = "scale(1.17) translateY(-20px)";
+    fadeabout4.style.transform = "scale(1.1) translateY(-5px)";
     fadeabout1.style.transition = "all .1s ease-in .2s";
     fadeabout3.style.transition = "all .1s ease-in .2s";
     fadeabout2.style.transition = "all .1s ease-in .2s";
