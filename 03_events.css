@@ -1,0 +1,230 @@
+/* ================================================================
+   EVENTS SECTION HIERARCHY
+================================================================
+.events (Main Container - holds everything)
+│
+├── .eventtop (Header area - Titles)
+│   ├── h1 (Main "Events" text)
+│   └── h3 ("Upcoming Events" sub-text)
+│
+└── .eventbot (Content area - Flex parent for columns)
+    │
+    ├── .eventbotleft (Column 1 - Flex parent for rows)
+    │   ├── .evbotleftop (Top card in Left Column)
+    │   └── .evbotlefbot (Bottom card in Left Column)
+    │
+    └── .eventbotright (Column 2 - Flex parent for rows)
+        ├── .evbotrighttop (Top card in Right Column)
+        └── .evbotrightbot (Bottom card in Right Column)
+================================================================
+*/
+
+.events {
+    display: flex;
+    flex-direction: column;
+}
+
+.eventtop {
+    text-align: center;
+}
+
+.eventtop h1 {
+    font-size: 120px;
+}
+
+.eventtop h3 {
+    font-size: 30px;
+
+    color: #7b7b7b;
+    margin-top: -70px;
+}
+
+.eventbot {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.eventbotleft {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.evbotleftop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.evbotlefbot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.eventbotright {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.evbotrighttop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.evbotrightbot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.evboletotitle h1,
+.evbolebotitle h1,
+.evboritotitle h1,
+.evboribotitle h1 {
+    font-size: 120px;
+}
+
+
+.evboletotext h3,
+.evbolebotext h3,
+.evboritotext h3,
+.evboribotext h3 {
+    font-size: 30px;
+    color: #7b7b7b;
+    font-weight: 400;
+}
+
+
+.evboletotime h3,
+.evbolebotime h3,
+.evboritotime h3,
+.evboribotime h3 {
+    font-size: 20px;
+    text-align: left;
+    color: #000;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.evboletobutton,
+.evbolebobutton,
+.evboritobutton,
+.evboribobutton {
+    padding-top: 40px;
+}
+
+.evboletobutton button,
+.evbolebobutton button,
+.evboritobutton button,
+.evboribobutton button {
+
+    padding: 15px 40px;
+    border-radius: 50px;
+    background-color: rgb(118, 162, 220);
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+
+.evboletobutton button:hover,
+.evbolebobutton button:hover,
+.evboritobutton button:hover,
+.evboribobutton button:hover {
+    transform: scale(1.1);
+}
+
+
+.evboletobutton button h1,
+.evbolebobutton button h1,
+.evboritobutton button h1,
+.evboribobutton button h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+.quote {
+    display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    gap: 70px;
+}
+
+.quotepic img {
+    height: 1200px;
+    border: transparent;
+    border-radius: 30px;
+}
+
+.quotetext {
+    display: flex;
+    flex-direction: column;
+    width: 980px;
+    margin-top: 100px;
+
+}
+
+.quotetext h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 85px;
+}
+
+.quotetext h2 {
+    color: #7b7b7b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+
+
+/*===<div class="news">
+                <div class="newstop">
+                        <h1>News For You</h1>
+                </div>
+                <div class="newsmid">
+                        <h1>Something's cooking</h1>
+                        <h2>Stay tuned!!</h2>
+                        <h2>With our intuitive setup, you’re up and running in minutes.</h2>
+                </div>
+                <div class="newsbot">
+                        <div class="newsbot1">
+                                <h1>01</h1>
+                                <h2>Future Events</h2>
+                                <h2>Upcoming and collaboration tech workshops and competition.</h2>
+                        </div>
+                        <div class="newsbot2">
+                                <h1>02</h1>
+                                <h2>Achievements</h2>
+                                <h2>Success, stories and milestones.</h2>
+                        </div>
+                        <div class="newsbot3">
+                                <h1>03</h1>
+                                <h2>Past Events</h2>
+                                <h2>Make informed decisions to exceed your goals.</h2>
+                        </div>
+                </div>
+        </div>
+*/
+

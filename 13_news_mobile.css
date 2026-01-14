@@ -1,0 +1,142 @@
+.news {
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+}
+
+.newstop h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 60px;
+}
+
+.newsmid {
+    text-align: center;
+}
+
+.newsmid h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    margin-left: -10px;
+    margin-top: -30px;
+}
+
+.newsmid h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-left: -10px;
+    color: #7b7b7b;
+}
+
+.newsbot {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 60px;
+}
+
+.newsbot1,
+.newsbot2,
+.newsbot3 {
+    background-color: rgb(211, 226, 246);
+    border: solid 1px rgb(148, 209, 255);
+    border-radius: 40px;
+    height: 300px;
+    width: 300px;
+    margin-top: -60px;
+}
+
+.newsbot1 h1,
+.newsbot2 h1,
+.newsbot3 h1 {
+    font-size: 50px;
+
+}
+
+
+.newsbot1 h2,
+.newsbot2 h2,
+.newsbot3 h2 {
+    font-size: 30px;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.newsbot1 h3,
+.newsbot2 h3,
+.newsbot3 h3 {
+    font-size: 20px;
+    color: #7e7e7e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*
+ <div class="gallery">
+                <div class="gallerytext">
+                        <h1>Gallery</h1>
+                </div>
+                <div class="gallerypics">
+                        <div class="gallpictop">
+                                <div class="gal1"><img src="galle1.png"></div>
+                                <div class="gal2"><img src="galle2.png"></div>
+                                <div class="gal3"><img src="galle3.png"></div>
+                        </div>
+                        <div class="gallpicbot">
+                                <div class="gal4"><img src="galle4.png"></div>
+                                <div class="gal5"><img src="galle5.png"></div>
+                                <div class="gal6"><img src="galle6.png"></div>
+                        </div>
+                </div>
+        </div>
+*/
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallerytext {
+    text-align: center;
+    gap: 90px;
+}
+
+.gallerytext h1 {
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+
+.gallerypics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+}
+
+.gallerypics img {
+    width: 100%;
+    height: auto;
+    margin-left: 70px;
+}
+
+.gallpictop,
+.gallpicbot {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+
+.gal1 img,
+.gal2 img,
+.gal3 img {
+    height: 80px;
+    margin-top: -100px;
+}
+.gal4 img,
+.gal5 img,
+.gal6 img{
+    height: 80px;
+    margin-top: -100px;
+}

@@ -1,0 +1,379 @@
+.about {
+    display: flex;
+    padding-left: 70px;
+    padding-right: 20px;
+    gap: 80px;
+}
+
+.aboutleft {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+
+}
+
+.aboutltop h1 {
+    font-size: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.aboutlbot h1 {
+    padding-left: 30px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.aboutright {
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes floatLogo {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+
+}
+
+
+@keyframes pulseShadow {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.6;
+    }
+
+    50% {
+        transform: scale(0.6);
+        opacity: 0.2;
+
+    }
+}
+
+.logocontain {
+    padding-top: 30px;
+    animation: floatLogo 3s ease-in-out infinite;
+    z-index: 2;
+
+}
+
+.aboutlogo {
+    filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.3));
+}
+
+
+.aboutshadow {
+    margin-top: 5px;
+    margin-bottom: -50px;
+    width: 790px;
+    height: 80px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    animation: pulseShadow 3s ease-in-out infinite;
+    z-index: 2;
+}
+
+
+
+.aboutbottom {
+    display: flex;
+    padding-left: 70px;
+    justify-content: space-around;
+}
+
+.about1,
+.about2,
+.about3,
+.about4 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: solid 1px #8f8f8f;
+    border-radius: 40px;
+    overflow: hidden;
+    background: white;
+}
+
+.abouticon1,
+.abouticon2,
+.abouticon3,
+.abouticon4 {
+    font-size: 67px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.abouttitle1,
+.abouttitle2,
+.abouttitle3,
+.abouttitle4 {
+    font-size: 23px;
+    padding: 15px;
+}
+
+.abouttext1,
+.abouttext2,
+.abouttext3,
+.abouttext4 {
+    font-size: 15px;
+    color: #8f8f8f;
+    padding: 15px;
+}
+
+.aboutphoto {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.aboutphoto img {
+    border-radius: 50px;
+    width: 2300px;
+    height: auto;
+    filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.3));
+}
+
+.officers {
+    display: flex;
+}
+
+.officersleft {
+    padding-top: 120px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.oftitle h1 {
+    font-size: 100px;
+    margin-top: -30px;
+}
+
+.oftitle h2 {
+    font-size: 30px;
+    margin-top: -60px;
+}
+
+.ofselection {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 40px;
+    width: 1000px;
+}
+
+.ofselect1,
+.ofselect2,
+.ofselect3,
+.ofselect4,
+.ofselect5,
+.ofselect6 {
+    display: flex;
+    border: transparent;
+    border-radius: 11px 0px 0px 11px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.ofselect1 h1,
+.ofselect2 h1,
+.ofselect3 h1,
+.ofselect4 h1,
+.ofselect5 h1,
+.ofselect6 h1,
+.ofselect1 h2,
+.ofselect2 h2,
+.ofselect3 h2,
+.ofselect4 h2,
+.ofselect5 h2,
+.ofselect6 h2 {
+    user-select: none;
+    padding-left: 30px;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.officersright {
+    padding-top: 40px;
+    padding-right: 40px;
+    display: flex;
+    width: 65%;
+}
+
+.ofrightcontain {
+    width: 1700px;
+
+    border-radius: 40px;
+    display: flex;
+    background-color: rgb(211, 224, 241);
+    border: solid 2px rgb(211, 224, 241);
+}
+
+
+.executive,
+.mulpub,
+.extres,
+.comelect,
+.otherof,
+.yearrep {
+    display: none;
+    width: 1900px;
+    height: 1100px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    user-select: none;
+}
+
+.executive.open,
+.mulpub.open,
+.extres.open,
+.comelect.open,
+.otherof.open,
+.yearrep.open {
+    display: flex;
+}
+
+.executiveleft,
+.mulpubleft,
+.extresleft,
+.comleft,
+.otherofleft,
+.yearrepleft {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 30px;
+    user-select: none;
+}
+
+.executiveright,
+.mulpubright,
+.extresright,
+.comright,
+.otherofright,
+.yearrepright {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 30px;
+    user-select: none;
+}
+
+.press h1,
+.invp h1,
+.exvp h1,
+.sec h1,
+.asec h1,
+.tres h1,
+.astres h1,
+.aud h1,
+.asaud h1,
+.busman1 h1,
+.busman2 h1,
+.empty h1,
+.multimedia-chairman h1,
+.multimedia-vice-chairman h1,
+.multimedia-vice-chairman-2 h1,
+.multimedia-secretary h1,
+[class^="multimedia-committee"] h1,
+.extension-chairman h1,
+.extension-vice-chairman h1,
+.legislative-officer h1,
+.extension-secretary h1,
+[class^="extension-committee"] h1,
+.comelec-chairman h1,
+.comelec-vice-chairman h1,
+.comelec-secretary h1,
+[class^="comelec-committee"] h1,
+.public-information-officer h1,
+.assistant-pio-1 h1,
+.assistant-pio-2 h1,
+.academic-coordinator h1,
+.assistant-academic-coordinator h1,
+[class^="assistant-sport-coordinator"] h1,
+[class^="rep-"] h1 {
+
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.press h2,
+.invp h2,
+.exvp h2,
+.sec h2,
+.asec h2,
+.tres h2,
+.astres h2,
+.aud h2,
+.asaud h2,
+.busman1 h2,
+.busman2 h2,
+.empty h2,
+.multimedia-chairman h2,
+.multimedia-vice-chairman h2,
+.multimedia-vice-chairman-2 h2,
+.multimedia-secretary h2,
+[class^="multimedia-committee"] h2,
+.extension-chairman h2,
+.extension-vice-chairman h2,
+.legislative-officer h2,
+.extension-secretary h2,
+[class^="extension-committee"] h2,
+.comelec-chairman h2,
+.comelec-vice-chairman h2,
+.comelec-secretary h2,
+[class^="comelec-committee"] h2,
+.public-information-officer h2,
+.assistant-pio-1 h2,
+.assistant-pio-2 h2,
+.academic-coordinator h2,
+.assistant-academic-coordinator h2,
+[class^="assistant-sport-coordinator"] h2,
+[class^="rep-"] h2 {
+
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.empty,
+.multimedia-committee-32,
+.multimedia-committee-33,
+.multimedia-committee-34,
+.multimedia-committee-35,
+.multimedia-committee-36,
+.extension-committee-11,
+.extension-committee-12,
+.extension-committee-13,
+.extension-committee-14,
+.extension-committee-15,
+.extension-committee-16,
+.extension-committee-17,
+.comelec-committee-22,
+.comelec-committee-23,
+.comelec-committee-24,
+.comelec-committee-25,
+.comelec-committee-26,
+.comelec-committee-27,
+.comelec-committee-28,
+.otherofright,
+.rep-1st-year-11,
+.rep-1st-year-12,
+.yearrepright {
+    visibility:hidden;
+}

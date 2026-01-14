@@ -1,0 +1,52 @@
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.contactleft {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.conphone,
+.adress,
+.email,
+.followus {
+    display: flex;
+    gap: 15px;
+}
+
+.contactright h1{
+    margin-left: -70px;
+}
+
+.contactright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -170px;
+    margin-top: -400px;
+}
+
+.contactin{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactnamein, .contactnamein, .contactmessagein{
+    height: 15px;
+    width: 270px;
+    border: none;
+    border-radius: 20px;
+}
+
+.contactnamein label, .contactnamein label, .contactmessagein label{
+font-size: 20px;
+}

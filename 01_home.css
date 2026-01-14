@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Tinos&display=swap');
+
+
+body {
+    background-color: seashell;
+}
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 0;
+    margin-top: 30px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    border: solid 1px black;
+    border-radius: 70px;
+    margin-top: 30px;
+
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2000;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+}
+
+
+
+.lottie {
+    width: 100px;
+    height: 130px;
+    margin-top: -14px;
+}
+
+.lottie:hover {
+    cursor: pointer;
+    transform: scale(1.6);
+    transition: transform 0.4s;
+}
+
+.ltext {
+    display: none;
+    color: black;
+}
+
+.ltext h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.ltext.open {
+    display: flex;
+    margin-top: -30px;
+    margin-left: 30px;
+    color: antiquewhite;
+    border: #b6b6b6;
+    border-radius: 50px;
+    background-color: black;
+    padding-top: 0.2px;
+    padding-bottom: 0.2px;
+}
+
+.navs {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding-top: 20px;
+    font-display: none;
+
+}
+
+.navs a {
+    text-decoration: none;
+    color: black;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navs a:hover {
+    transform: scale(1.26);
+    color: rgb(8, 176, 191);
+    transition: transform 0.4s;
+}
+
+.sinlog button {
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    transition: transform .2s ease-in-out .1s, color .2s ease-in .1s;
+}
+
+.sinlog button:hover {
+    color: rgb(8, 176, 191);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.register {
+    display: none;
+    border: solid black 2px;
+    background-color: white;
+}
+
+
+.register.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    margin-top: 46px;
+    margin-right: 60px;
+    padding: 20px;
+    z-index: 100;
+    border-radius: 10px;
+
+}
+
+
+.register a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 35px;
+}
+
+.login {
+    border: solid rgba(85, 149, 232, 0.727) 2px;
+    border-radius: 50px;
+    background-color: rgba(85, 149, 232, 0.727);
+    text-align: center;
+}
+
+.login:hover {
+
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.4s;
+}
+
+.sign:hover {
+    color: rgb(8, 176, 191);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.4s;
+}
+
+
+.homecontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 110px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+    margin-top: -60px;
+}
+
+.pic {
+    margin-top: -90px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 999;
+}
+
+
+@keyframes float {
+    0% {
+        transform: translate(-50%, 0px);
+    }
+
+    50% {
+        transform: translate(-50%, -35px);
+    }
+
+    100% {
+        transform: translate(-50%, 0px);
+    }
+}
+
+
+.topim {
+    position: absolute;
+    z-index: 1001;
+    left: 50%;
+    transform: translateX(-50%);
+    align-self: center;
+    border-radius: 50px 50px 0px 0px;
+
+
+    animation: float 4s ease-in-out infinite;
+
+    filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.3));
+}
+
+.botim {
+
+    margin-top: 310px;
+    align-self: center;
+}
+
+
+
+
+

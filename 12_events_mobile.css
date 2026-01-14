@@ -1,0 +1,165 @@
+
+.events {
+    display: flex;
+    flex-direction: column;
+}
+
+.eventtop {
+    text-align: center;
+}
+
+.eventtop h1 {
+    font-size: 60px;
+    margin-top: -10px;
+}
+
+.eventtop h3 {
+    font-size: 30px;
+    color: #7b7b7b;
+    margin-top: -40px;
+}
+
+
+
+.eventbot {
+    display: flex;
+    justify-content: center;
+}
+
+.eventbotleft {
+    display: flex;
+    flex-direction: column;
+}
+
+.eventbotright {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.evbotrighttop, .evbotrightbot, .evbotlefbot, .evbotleftop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 20px;
+    height: 310px;
+    
+}
+
+.evboletotitle h1,
+.evbolebotitle h1,
+.evboritotitle h1,
+.evboribotitle h1 {
+    font-size: 30px;
+}
+
+
+.evboletotext h3,
+.evbolebotext h3,
+.evboritotext h3,
+.evboribotext h3 {
+    margin-top: -10px;
+    font-size: 20px;
+    color: #7b7b7b;
+    font-weight: 400;
+}
+
+
+.evboletotime h3,
+.evbolebotime h3,
+.evboritotime h3,
+.evboribotime h3 {
+    font-size: 15px;
+    text-align: left;
+    color: #000;
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+.evboletobutton,
+.evbolebobutton,
+.evboritobutton,
+.evboribobutton {
+    margin-top: -40px;
+    
+}
+
+.evboletobutton button,
+.evbolebobutton button,
+.evboritobutton button,
+.evboribobutton button {
+
+    border-radius: 50px;
+    background-color: rgb(118, 162, 220);
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    height: 50px;
+    width: 120px;
+}
+
+
+.evboletobutton button:hover,
+.evbolebobutton button:hover,
+.evboritobutton button:hover,
+.evboribobutton button:hover {
+    transform: scale(1.1);
+}
+
+
+.evboletobutton button h1,
+.evbolebobutton button h1,
+.evboritobutton button h1,
+.evboribobutton button h1 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -1px;
+    margin-left: -20px;
+}
+
+
+
+
+
+
+
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quotepic img {
+    height: 370px;
+    border: transparent;
+    border-radius: 30px;
+    margin-left: -25px;
+    margin-top: -80px;
+}
+
+.quotetext {
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+    height: 100px;
+    width: auto;
+
+}
+
+.quotetext h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.quotetext h2 {
+    color: #7b7b7b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+

@@ -1,0 +1,92 @@
+/* --- Event Registration Mobile --- */
+
+.register {
+    width: 100% !important;
+    padding: 10px;
+    overflow-x: hidden;
+}
+
+.registerpic img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Stacks Title and Join Button */
+.title {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    align-items: center;
+    gap: 10px !important; /* Kill the 1500px desktop gap */
+    margin: 20px 0;
+}
+
+.titletext h1 {
+    font-size: 32px !important;
+    text-align: center;
+}
+
+.button h1 {
+    font-size: 24px !important;
+}
+
+.button button {
+    margin-top: 0 !important; /* Reset desktop margin */
+    width: 200px;
+}
+
+/* Fix Description */
+.description h1 {
+    font-size: 18px !important;
+    padding: 0 15px !important;
+    text-align: justify;
+    margin-top: 10px !important;
+}
+
+/* --- Time & Location Stacking --- */
+.timesetting {
+    display: flex;
+    flex-direction: column; /* Stack them */
+    align-items: center;
+    gap: 15px !important; /* Kill the 900px desktop gap */
+    margin: 30px 0 !important;
+    margin-left: 0 !important; /* Reset the -250px margin */
+}
+
+.datetime, .location {
+    width: 90% !important; /* Fill the screen width */
+    gap: 15px !important;
+}
+
+.dateicon i, .locationicon i {
+    font-size: 40px !important; /* Shrink from 80px */
+}
+
+.datedetails h1, .locationdetails h1 {
+    font-size: 18px !important;
+}
+
+/* --- Organizers Section --- */
+.organizers {
+    margin-left: 0 !important; /* Center on screen */
+    align-items: center;
+    width: 100%;
+}
+
+.organizer1, .organizer2 {
+    width: 90% !important; /* Change from 700px */
+    border-radius: 20px !important; /* Simplify corners for mobile */
+}
+
+.organizer1 i, .organizer2 i {
+    font-size: 60px !important; /* Shrink from 120px */
+}
+
+.organizer1 h1, .organizer2 h1 {
+    font-size: 20px !important;
+}
+
+.eventdetails {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}

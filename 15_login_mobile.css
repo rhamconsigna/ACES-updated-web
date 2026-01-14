@@ -1,0 +1,51 @@
+
+
+.loggin {
+    flex-direction: column;
+    padding: 20px;       
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.left, .right {
+    width: 100% !important; 
+}
+
+.right img {
+    max-height: 40vh;     
+    width: auto;
+    margin: 0 auto;
+}
+
+.inputlogin {
+    width: 90%;
+    gap: 15px;  
+}
+
+.google, .fb {
+    font-size: 50px !important; 
+}
+
+.icons {
+    justify-content: center;
+    gap: 20px;
+}
+
+.emailin, #passin {
+    font-size: 16px; 
+    padding: 12px;
+}
+
+.logocontain img {
+    height: 200px;
+    margin-top: 20px;
+}
+
+.loginbutton button{
+    border-radius: 20px;
+    height: 50px;
+}
+
+.loginbutton h1{
+    font-size: 20px;
+}

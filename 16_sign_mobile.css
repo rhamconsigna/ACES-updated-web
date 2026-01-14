@@ -1,0 +1,84 @@
+.Sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    width: auto;
+    margin-left: -60px;
+
+}
+
+.left {
+    width: 100% !important;
+    padding: 20px;
+    order: 1;
+}
+
+.right {
+    width: 100% !important;
+    order: 2;
+    display: block;
+}
+
+.loginpic {
+    height: 40vh;
+    object-fit: cover;
+}
+
+.bg-logo {
+    height: 300px !important;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inputSign {
+    width: 60% !important;
+
+}
+
+.inputSign h1 {
+    font-size: 35px !important;
+    margin-bottom: 10px;
+}
+
+
+.namein {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.namein div {
+    width: 100%;
+}
+
+
+label {
+    font-size: 14px;
+}
+
+input {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.signinbutton {
+    width: 300px;
+}
+
+.signinbutton h1 {
+    font-size: 15px;
+}
+
+.right img {
+    height: 500px;
+    border-radius: 20px;
+    width: 340px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+.logocontain img {
+    height: 200px;
+}

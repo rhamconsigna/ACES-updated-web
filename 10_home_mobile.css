@@ -1,0 +1,240 @@
+/* <div class="home" id="home">
+                <!--home-->
+                <div class="topbar">
+                        <div class="logo" id="logo">
+                                <a href=""><img src="logo.png" height="150px"></a>
+                        </div>
+
+                        <div class="sinlog">
+                                <button id="signinlogin">
+                                        <h1> Login/Sign</h1>
+                                </button>
+                        </div>
+
+                        <div class="register" id="register">
+
+                                <a href="06_login.html" class="login"> login</a>
+                                <hr>
+                                <a href="07_sign.html" class="sign"> sign up</a>
+                        </div>
+                </div>
+
+                <div class="navbar" id="navbar">
+
+
+
+                        <div class="lottie" id="lottie">
+                                <lottie-player src="00_orcaca.json" style="width: 100%; height: 100%;"
+                                        background="transparent" speed="1" loop autoplay></lottie-player>
+                                <div class="ltext" id="ltext">
+                                        <h1>Hello!</h1>
+                                </div>
+                        </div>
+                        <div class="navs">
+                                <a href="#home">
+                                        <h1><i class="fa-regular fa-house"></i>Home</h1>
+                                </a>
+
+                                <a href="#about">
+                                        <h1><i class="fa-solid fa-book"></i>About us</h1>
+                                </a>
+
+                                <a href="#events">
+                                        <h1><i class="fa-regular fa-calendar"></i>Events</h1>
+                                </a>
+
+                                <a href="#news">
+                                        <h1><i class="fa-regular fa-newspaper"></i>News</h1>
+                                </a>
+
+                                <a href="#contact">
+                                        <h1><i class="fa-solid fa-mobile"></i>Contact us</h1>
+                                </a>
+                        </div>
+
+                </div>
+
+
+                <!-- home content -->
+                <div class="homecontent" id="homecontent">
+
+                        <div class="title">
+                                <h1>Association of Computer Engineering Students of STI OrCa</h1>
+                        </div>
+
+                        <div class="pic">
+                                <img src="homeimg.png" class="topim" width="1900px" height="1110px">
+                                <img src="Hero image.png" class="botim" width="2300px" height="800px">
+                        </div>
+                </div>
+                <br>
+                <hr>        </div> */
+
+.ltext {
+        display: none;
+}
+
+.home {
+        position: relative;
+        z-index: 1;
+}
+
+.lottie {
+        height: 100px;
+        width: 60px;
+}
+
+.logo img {
+        height: 100px;
+}
+
+.navbar {
+        display: none;
+        flex-direction: column;
+        border: solid 1px black;
+        width: 96px;
+        padding-left: 10px;
+        border-radius: 16px;
+        background: rgba(0, 0, 0, 0.15);
+        backdrop-filter: blur(10px);
+
+        position: absolute;
+        z-index: 100;
+
+        margin-top: 100px;
+        margin-left: -8px;
+}
+
+.navbar.open {
+        display: flex;
+}
+
+.navs {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-bottom: 5px;
+}
+
+.navs a {
+        font-size: 7px;
+        text-decoration: none;
+        color: black;
+        font-family: "Tinos", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.home {
+        display: flex;
+        flex-direction: column;
+}
+
+.topbar {
+        display: flex;
+        border-bottom: solid 2px black;
+}
+
+.sinlog button {
+        height: 55px;
+        width: auto;
+        border-radius: 10px;
+
+        margin-top: 15px;
+        margin-left: 215px;
+}
+
+.sinlog button h1 {
+        font-size: 15px;
+}
+
+.register {
+        display: none;
+        border: solid 1px black;
+        border-radius: 5px;
+        padding: 3px;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        position: absolute;
+        z-index: 2;
+        margin-left: 350px;
+        margin-top: 100px;
+        width: 50px;
+
+}
+
+.register.open {
+        display: flex;
+        flex-direction: column;
+}
+
+.login,
+.sign {
+        text-decoration: none;
+        font-size: 20px;
+
+}
+
+
+.homecontent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.title {
+        text-align: center;
+
+        font-family: "Tinos", serif;
+        font-weight: 400;
+        font-style: normal;
+
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        margin-bottom: 50px;
+
+}
+
+.pic {
+
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 2;
+}
+
+
+@keyframes float {
+        0% {
+                transform: translate(-50%, 0px);
+        }
+
+        50% {
+                transform: translate(-50%, -9px);
+        }
+
+        100% {
+                transform: translate(-50%, 0px);
+        }
+}
+
+
+.topim {
+        width: 370px;
+        height: auto;
+        position: absolute;
+        z-index: 1001;
+        left: 50%;
+        transform: translateX(-50%);
+        align-self: center;
+        border-radius: 15px 15px 0px 0px;
+        animation: float 4s ease-in-out infinite;
+        filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+.botim {
+        width: 400px;
+        height: 140px;
+        margin-top: 80px;
+        align-self: center;
+}

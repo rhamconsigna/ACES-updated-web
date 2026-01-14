@@ -1,0 +1,217 @@
+/*
+<div class="register">
+        <div class="registerpic">
+            <img src="sumbot.png">
+        </div>
+        <div class="title">
+            <div class="titletext">
+                <h1>SUMOBOT</h1>
+            </div>
+            <div class="button">
+                <h1>Join Now</h1>
+            </div>
+        </div>
+        <div class="description">
+            <h1>Witness the thrill of robotics in action! Participants
+                will showcase their engineering skills as their
+                bots engage in strategic and high-energy Sumo matches.</h1>
+        </div>
+
+        <div class="timesetting">
+            <div class="datetime">
+                <div class="dateicon"><i class="fa-regular fa-calendar"></i></div>
+                <div class="datedetails">
+                    <h1>Date&time</h1>
+                    <h3>Kahit kelan</h3>
+                </div>
+            </div>
+
+            <div class="location">
+                <div class="locationicon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="locationdetails">
+                    <h1>Location</h1>
+                    <h3>Kahit saan</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="eventdetails">
+            <h1>Event Details</h1>
+            <h2>Witness the thrill of robotics in action!
+                Participants will showcase their engineering skills as their
+                bots engage in strategic and high-energy Sumo matches.</h2>
+        </div>
+        <div class="organizers">
+            <div class="organizer1">
+                <div class="organizer1icon">
+                    <i class="fa-regular fa-face-kiss-wink-heart"></i>
+                </div>
+                <div class="organizer1details">
+                    <h1>Joseph Laslanan</h1>
+                    <h2>President</h2>
+                </div>
+            </div>
+            <div class="organizer2">
+                <div class="organizer2icon">
+                    <i class="fa-regular fa-face-meh"></i>
+                </div>
+                <div class="organizer2details">
+                    <h1>Miyagi Yu</h1>
+                    <h2>Vice President</h2>
+                </div>
+            </div>
+        </div>
+
+    </div> */
+
+
+.registerpic {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    gap: 1500px;
+}
+
+.titletext {
+    font-size: 40px;
+}
+
+.button button {
+    margin-top: 50px;
+    border: transparent;
+    border-radius: 20px;
+    background-color: rgb(211, 224, 241);
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.button button:hover {
+    margin-top: 50px;
+    border: transparent;
+    border-radius: 20px;
+    background-color: rgb(154, 192, 242);
+    cursor: pointer;
+    transition: all .2s ease-in 0s;
+    transform: scale(1.1);
+}
+
+.button h1 {
+    font-size: 50px;
+}
+
+.description h1 {
+    margin-top: -30px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(102, 102, 102);
+    padding-left: 60px;
+}
+
+.timesetting {
+    display: flex;
+    justify-content: center;
+    gap: 900px;
+    margin-left: -250px;
+    margin-top: 50px;
+}
+
+.datetime {
+    display: flex;
+    gap: 30px;
+    border: solid 1px black;
+    padding: 10px;
+    width: 600px;
+}
+
+.dateicon i {
+    font-size: 80px;
+}
+
+.location {
+    display: flex;
+    gap: 30px;
+    border: solid 1px black;
+    padding: 10px;
+    width: 600px;
+}
+
+.locationicon i {
+    font-size: 80px;
+}
+
+.eventdetails {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.eventdetails h1 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.eventdetails h2 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.organizers {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 70px;
+    gap: 20px;
+
+}
+
+.organizer1 {
+    display: flex;
+    gap: 20px;
+    border: solid 1px black;
+    border-radius: 30px 0px 0px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    width: 700px;
+}
+
+.organizer1 h1 {
+    font-size: 35px;
+}
+
+.organizer1 i {
+    font-size: 120px;
+}
+
+.organizer1 h2 {
+    font-size: 25px;
+    color: gray;
+}
+
+.organizer2 {
+    display: flex;
+    gap: 20px;
+    border: solid 1px black;
+    border-radius: 30px 0px 0px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    width: 700px;
+}
+
+.organizer2 h1 {
+    font-size: 35px;
+}
+
+.organizer2 i {
+    font-size: 120px;
+}
+
+.organizer2 h2 {
+    font-size: 25px;
+    color: gray;
+}

@@ -1,0 +1,53 @@
+.loggin {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: rgb(211, 224, 241);
+   padding: 50px;
+   min-height: 100vh;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.inputlogin {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logo img {
+    opacity: 0.5;
+    margin-top: 40px; 
+}
+
+.right {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.right img {
+    max-height: 80vh;
+    width: auto;
+}
+
+.icons  {
+display: flex;
+gap: 40px;
+}
+
+.google, .fb{
+    font-size: 80px;
+}
+
+.emailin, #passin {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
